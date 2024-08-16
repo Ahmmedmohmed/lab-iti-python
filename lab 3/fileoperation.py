@@ -41,7 +41,7 @@ def write(filepath, content):
 
 
 
-def apend(filepath, newcontent):
+def apend(filepath, newcontentgi):
     try:
         file = open(filepath, "a")
 
